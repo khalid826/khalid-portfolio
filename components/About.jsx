@@ -16,39 +16,16 @@ export const About = () => {
             <h2 className="text-4xl font-bold bg-gradient-to-r from-gray-800 to-red-600 bg-clip-text text-transparent mb-4">
               {aboutContent.title}
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{aboutContent.subtitle}</p>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              {aboutContent.subtitle}
+            </p>
           </div>
         </AnimatedSection>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <AnimatedSection animation="fade-right" delay={200}>
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-red-300 to-orange-300 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-              <img
-                src="/placeholder.svg?height=500&width=600"
-                alt="About me"
-                className="relative w-full rounded-2xl shadow-xl transition-transform duration-500 group-hover:scale-105"
-              />
-            </div>
-          </AnimatedSection>
-
-          <AnimatedSection animation="fade-left" delay={400}>
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">{aboutContent.journey.title}</h3>
-
-              {aboutContent.journey.paragraphs.map((paragraph, index) => (
-                <p key={index} className="text-gray-600 mb-6 leading-relaxed">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-          </AnimatedSection>
-        </div>
-
         {/* Enhanced Skills Section */}
         <div className="space-y-12">
-          {/* Hard Skills */}
-          <AnimatedSection animation="fade-up" delay={600}>
+          {/* Technical Skills */}
+          <AnimatedSection animation="fade-up" delay={200}>
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
                 {aboutContent.skills.hardSkills.title}
@@ -56,7 +33,7 @@ export const About = () => {
 
               <div className="grid md:grid-cols-2 gap-8">
                 {Object.entries(aboutContent.skills.hardSkills.categories).map(([key, category], index) => (
-                  <AnimatedSection key={key} animation="scale" delay={800 + index * 100}>
+                  <AnimatedSection key={key} animation="scale" delay={400 + index * 100}>
                     <div className="bg-gradient-to-br from-red-50 to-orange-50 p-6 rounded-xl border border-red-100 hover:shadow-lg transition-all duration-300 group">
                       <h4 className="font-semibold text-gray-900 mb-4 group-hover:text-red-600 transition-colors">
                         {category.title}
@@ -74,13 +51,13 @@ export const About = () => {
           </AnimatedSection>
 
           {/* Soft Skills */}
-          <AnimatedSection animation="fade-up" delay={1000}>
+          <AnimatedSection animation="fade-up" delay={600}>
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
                 {aboutContent.skills.softSkills.title}
               </h3>
 
-              <div className="grid md:grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-3 gap-4">
                 {aboutContent.skills.softSkills.items.map((skill, index) => (
                   <div
                     key={index}
@@ -95,14 +72,14 @@ export const About = () => {
             </div>
           </AnimatedSection>
 
-          {/* Other Skills */}
-          <AnimatedSection animation="fade-up" delay={1200}>
+          {/* Additional Skills */}
+          <AnimatedSection animation="fade-up" delay={800}>
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
                 {aboutContent.skills.otherSkills.title}
               </h3>
 
-              <div className="grid md:grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-3 gap-4">
                 {aboutContent.skills.otherSkills.items.map((skill, index) => (
                   <div
                     key={index}

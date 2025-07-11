@@ -1,121 +1,116 @@
 /**
- * Portfolio projects data with categories and filtering options
+ * Portfolio projects data with real projects from Khalid's CV
  * Used by: Portfolio component, PortfolioCard component
  */
 
 export const portfolioCategories = [
-  { id: "all", label: "All Work" },
-  { id: "web-app", label: "Web Apps" },
-  { id: "game-app", label: "Games" },
-  { id: "art", label: "Art & Design" },
+  { id: "all", label: "All Projects" },
+  { id: "game-dev", label: "Game Development" },
+  { id: "web-app", label: "Web Applications" },
+  { id: "translation", label: "Translation Work" },
 ]
 
 export const portfolioItems = [
   {
     id: 1,
-    title: "E-Commerce Platform Revolution",
-    category: "web-app",
+    title: "Counting with Komodo",
+    category: "game-dev",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "A comprehensive e-commerce solution that transforms online shopping experiences with AI-powered recommendations and seamless checkout processes.",
+      "Award-winning educational game that integrates mathematics with unique core mechanics. Recognized for its innovative approach to learning.",
     problem:
-      "Traditional e-commerce platforms suffer from poor user experience, high cart abandonment rates, and lack of personalization, leading to decreased sales and customer satisfaction.",
+      "Traditional math education often lacks engagement and fails to connect abstract concepts with real-world applications, leading to decreased student motivation and retention.",
     solution:
-      "Developed a modern, AI-driven platform with intelligent product recommendations, one-click checkout, real-time inventory management, and personalized shopping experiences that increased conversion rates by 45%.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "TensorFlow", "Redis"],
+      "Developed an interactive game that combines mathematical concepts with engaging gameplay mechanics, making learning both fun and effective. The unique core mechanic seamlessly integrates mathematics into the gaming experience.",
+    technologies: ["Unity Engine", "C#", "Game Design", "2D Art", "Mathematics Integration"],
     links: [
-      { label: "Live Demo", url: "#" },
-      { label: "GitHub", url: "#" },
-      { label: "Case Study", url: "#" },
+      { label: "Award Details", url: "#" },
+      { label: "Game Demo", url: "#" },
     ],
   },
   {
     id: 2,
-    title: "Collaborative Task Management Suite",
-    category: "web-app",
+    title: "GameXcellence 2023 Project",
+    category: "game-dev",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "An intuitive project management tool that enables teams to collaborate effectively with real-time updates, advanced analytics, and seamless integrations.",
+      "Honorable mention at the annual global showcase and awards event for indie game development talent, demonstrating excellence in game design and development.",
     problem:
-      "Teams struggle with fragmented communication, lack of project visibility, and inefficient task tracking across multiple platforms, resulting in missed deadlines and reduced productivity.",
+      "Indie game developers often struggle to gain recognition and visibility in the competitive gaming industry, making it difficult to showcase their talent and innovative ideas.",
     solution:
-      "Created an all-in-one platform with real-time collaboration, automated workflows, comprehensive analytics, and 20+ integrations that improved team productivity by 60% and reduced project completion time by 30%.",
-    technologies: ["React", "Firebase", "Material-UI", "WebSocket", "Chart.js", "Zapier API"],
+      "Created a standout game project that earned honorable mention at GameXcellence 2023, a prestigious global showcase for indie game development talent, validating the quality and innovation of the work.",
+    technologies: ["Unity Engine", "C#", "Game Development", "2D/3D Assets", "Creative Design"],
     links: [
-      { label: "Live Demo", url: "#" },
-      { label: "GitHub", url: "#" },
+      { label: "Award Certificate", url: "#" },
+      { label: "Project Showcase", url: "#" },
     ],
   },
   {
     id: 3,
-    title: "Cosmic Explorer: Space Adventure",
-    category: "game-app",
+    title: "PLN Enjiniring Internal Applications",
+    category: "web-app",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "An immersive 2D space exploration game featuring procedural generation, resource management, and engaging storylines that captivate players for hours.",
+      "Comprehensive internal management system for HR, Marketing, and Finance departments with responsive UI components and modular architecture.",
     problem:
-      "Most space games lack depth in exploration mechanics and fail to provide meaningful progression systems, leading to repetitive gameplay and quick player abandonment.",
+      "PLN Enjiniring needed efficient internal applications to manage operations across multiple departments, but existing systems lacked modern UI/UX and modular architecture.",
     solution:
-      "Designed a rich universe with procedural planet generation, complex resource systems, branching storylines, and multiplayer cooperation that achieved 4.8/5 rating and 100K+ downloads in the first month.",
-    technologies: ["Unity", "C#", "Photoshop", "Blender", "Firebase", "Steam API"],
+      "Developed 20+ responsive, modular UI components using CodeIgniter 3/4 and Bootstrap 4/5, designed admin-user flows across 10+ modules with PHP and MariaDB, and created dashboards for analysts and managers using Looker Studio.",
+    technologies: ["PHP", "CodeIgniter 3/4", "Bootstrap 4/5", "MariaDB", "Looker Studio", "Responsive Design"],
     links: [
-      { label: "Steam Page", url: "#" },
-      { label: "Trailer", url: "#" },
-      { label: "Dev Blog", url: "#" },
+      { label: "Case Study", url: "#" },
+      { label: "Technical Details", url: "#" },
     ],
   },
   {
     id: 4,
-    title: "MindBender: Mobile Puzzle Experience",
-    category: "game-app",
+    title: "BOI Research Translation Project",
+    category: "translation",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "An addictive puzzle game that challenges players with innovative mechanics, beautiful visuals, and progressive difficulty curves designed for mobile platforms.",
+      "Comprehensive English-Indonesian translation project involving 16 interviews and six audio transcriptions, bridging cultural and linguistic gaps.",
     problem:
-      "Mobile puzzle games often become monotonous with repetitive mechanics and lack of meaningful progression, causing players to lose interest quickly.",
+      "Research interviews conducted in English needed accurate translation to Indonesian while maintaining cultural context and ensuring grammatical accuracy for local audiences.",
     solution:
-      "Developed unique puzzle mechanics with adaptive difficulty, social features, daily challenges, and stunning visual effects that maintained 85% player retention rate and generated $50K+ revenue in 6 months.",
-    technologies: ["React Native", "JavaScript", "Firebase", "Adobe After Effects", "App Store Connect"],
+      "Transcribed six audio recordings into text-formatted conversations, performed grammar checks to bridge cultural gaps, and translated 16 interviews averaging 15,000 words each with high accuracy and cultural sensitivity.",
+    technologies: ["English-Indonesian Translation", "Transcription", "Grammar Proofing", "Cultural Localization"],
     links: [
-      { label: "App Store", url: "#" },
-      { label: "Google Play", url: "#" },
-      { label: "Gameplay Video", url: "#" },
+      { label: "Translation Samples", url: "#" },
+      { label: "Project Overview", url: "#" },
     ],
   },
   {
     id: 5,
-    title: "TechStart Brand Identity System",
-    category: "art",
+    title: "BINUS GAT LAB Game Projects",
+    category: "game-dev",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "A comprehensive brand identity package for a technology startup, including logo design, color systems, typography, and brand guidelines.",
+      "Seven collaborative game projects with four selected as competition finalists, featuring complete 2D game assets created from scratch.",
     problem:
-      "The startup lacked a cohesive visual identity, making it difficult to establish credibility, attract investors, and differentiate from competitors in the crowded tech market.",
+      "Game development teams needed high-quality 2D assets and comprehensive game design support to create competitive projects for various competitions and showcases.",
     solution:
-      "Created a modern, memorable brand system with scalable logo designs, comprehensive style guides, and marketing materials that helped secure $2M in Series A funding and increased brand recognition by 300%.",
-    technologies: ["Illustrator", "Photoshop", "Figma", "InDesign", "After Effects", "Principle"],
+      "Collaborated on seven game projects with four selected as finalists, designed and created complete 2D game assets from scratch for nine projects, and gained experience in full game design lifecycle from ideation to post-launch maintenance.",
+    technologies: ["Unity Engine", "2D Art Creation", "Game Design", "Asset Design", "Team Collaboration"],
     links: [
-      { label: "Brand Guidelines", url: "#" },
-      { label: "Behance", url: "#" },
-      { label: "Client Testimonial", url: "#" },
+      { label: "Game Portfolio", url: "#" },
+      { label: "Art Showcase", url: "#" },
     ],
   },
   {
     id: 6,
-    title: "Digital Character Art Collection",
-    category: "art",
+    title: "Animal Trafficking Awareness Thesis",
+    category: "web-app",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "A series of detailed digital character illustrations showcasing diverse art styles, from realistic portraits to stylized fantasy characters.",
+      "Published thesis highlighting animal trafficking issues in Indonesia, raising awareness through research and digital presentation.",
     problem:
-      "The digital art market is saturated with similar styles, making it challenging for artists to stand out and build a unique artistic voice that resonates with audiences.",
+      "Animal trafficking in Indonesia lacks sufficient public awareness and research documentation, making it difficult to address the issue effectively and garner support for conservation efforts.",
     solution:
-      "Developed a distinctive art style blending traditional techniques with digital innovation, resulting in viral social media presence with 50K+ followers, commissioned work from major gaming studios, and featured in digital art publications.",
-    technologies: ["Procreate", "Photoshop", "Illustrator", "Blender", "ZBrush", "Substance Painter"],
+      "Conducted comprehensive research on animal trafficking issues in Indonesia, published findings in a thesis that raises awareness and provides valuable insights for conservation efforts and policy development.",
+    technologies: ["Research", "Documentation", "Digital Presentation", "Awareness Campaign"],
     links: [
-      { label: "Art Portfolio", url: "#" },
-      { label: "Instagram", url: "#" },
-      { label: "NFT Collection", url: "#" },
+      { label: "Thesis Paper", url: "#" },
+      { label: "Research Summary", url: "#" },
     ],
   },
 ]

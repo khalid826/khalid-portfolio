@@ -56,8 +56,8 @@ export const Hero = () => {
 
                 {/* Profile image with hover effects */}
                 <img
-                  src={personalInfo.profileImage || "/placeholder.svg"}
-                  alt="Profile"
+                  src="/uploads/profile-pic.png"
+                  alt="Khalid Profile"
                   className="relative w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-white transition-transform duration-500 group-hover:scale-105"
                 />
 
