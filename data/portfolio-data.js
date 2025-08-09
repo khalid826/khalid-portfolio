@@ -24,42 +24,42 @@ export const portfolioItems = [
       "Developed an interactive game that combines mathematical concepts with engaging gameplay mechanics, making learning both fun and effective. The unique core mechanic seamlessly integrates mathematics into the gaming experience.",
     technologies: ["Unity Engine", "C#", "Game Design", "2D Art", "Mathematics Integration"],
     links: [
-      { label: "Award Details", url: "#" },
-      { label: "Game Demo", url: "#" },
+      // { label: "Award Details", url: "#" },
+      // { label: "Game Demo", url: "#" },
     ],
   },
   {
     id: 2,
-    title: "GameXcellence 2023 Project",
+    title: "Gorilla Galore",
     category: "game-dev",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "Honorable mention at the annual global showcase and awards event for indie game development talent, demonstrating excellence in game design and development.",
+      "A 2D platformer game that combines elements of platforming, puzzle-solving, and exploration. The game features a gorilla that must navigate through a series of challenging levels to reach the top of the mountain.",
     problem:
-      "Indie game developers often struggle to gain recognition and visibility in the competitive gaming industry, making it difficult to showcase their talent and innovative ideas.",
+      "Retro-style platformer games are becoming increasingly popular, but there is a lack of modern touch in the genre.",
     solution:
-      "Created a standout game project that earned honorable mention at GameXcellence 2023, a prestigious global showcase for indie game development talent, validating the quality and innovation of the work.",
+      "Created a 2D platformer game that combines elements of platforming and fast-paced action. The game features a kid who had a dream to fight off the gorilla while saving his family members.",
     technologies: ["Unity Engine", "C#", "Game Development", "2D/3D Assets", "Creative Design"],
     links: [
-      { label: "Award Certificate", url: "#" },
-      { label: "Project Showcase", url: "#" },
+      // { label: "Award Certificate", url: "#" },
+      // { label: "Project Showcase", url: "#" },
     ],
   },
   {
     id: 3,
-    title: "PLN Enjiniring Internal Applications",
+    title: "Liburanku Travel App",
     category: "web-app",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "Comprehensive internal management system for HR, Marketing, and Finance departments with responsive UI components and modular architecture.",
+      "A travel website that allows users to find and book travel packages. The website features search feature, filter feature, and complete booking feature.",
     problem:
-      "PLN Enjiniring needed efficient internal applications to manage operations across multiple departments, but existing systems lacked modern UI/UX and modular architecture.",
+      "Travel website often feels like a cluttered mess. It's hard to find the information you need, and the design is often not user-friendly. You could simply be overwhelmed by the amount of information.",
     solution:
-      "Developed 20+ responsive, modular UI components using CodeIgniter 3/4 and Bootstrap 4/5, designed admin-user flows across 10+ modules with PHP and MariaDB, and created dashboards for analysts and managers using Looker Studio.",
-    technologies: ["PHP", "CodeIgniter 3/4", "Bootstrap 4/5", "MariaDB", "Looker Studio", "Responsive Design"],
+      "Developed a travel website that allows users to find and book travel packages straightforwardly. Not only able to help user traveling, but also able to help admin to manage the content.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Responsive Design"],
     links: [
-      { label: "Case Study", url: "#" },
-      { label: "Technical Details", url: "#" },
+      // { label: "Case Study", url: "#" },
+      // { label: "Technical Details", url: "#" },
     ],
   },
   {
@@ -68,49 +68,49 @@ export const portfolioItems = [
     category: "translation",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "Comprehensive English-Indonesian translation project involving 16 interviews and six audio transcriptions, bridging cultural and linguistic gaps.",
+      "Comprehensive English-Indonesian translation project involving text and audio interviews, bridging cultural and linguistic gaps.",
     problem:
       "Research interviews conducted in English needed accurate translation to Indonesian while maintaining cultural context and ensuring grammatical accuracy for local audiences.",
     solution:
-      "Transcribed six audio recordings into text-formatted conversations, performed grammar checks to bridge cultural gaps, and translated 16 interviews averaging 15,000 words each with high accuracy and cultural sensitivity.",
+      "Transcribed audio recordings into text-formatted conversations, performed grammar checks to bridge cultural gaps, and translated 16 interviews averaging 15,000 words each with high accuracy and cultural sensitivity.",
     technologies: ["English-Indonesian Translation", "Transcription", "Grammar Proofing", "Cultural Localization"],
     links: [
-      { label: "Translation Samples", url: "#" },
-      { label: "Project Overview", url: "#" },
+      // { label: "Translation Samples", url: "#" },
+      // { label: "Project Overview", url: "#" },
     ],
   },
   {
     id: 5,
-    title: "BINUS GAT LAB Game Projects",
-    category: "game-dev",
-    image: "/placeholder.svg?height=400&width=800",
-    description:
-      "Seven collaborative game projects with four selected as competition finalists, featuring complete 2D game assets created from scratch.",
-    problem:
-      "Game development teams needed high-quality 2D assets and comprehensive game design support to create competitive projects for various competitions and showcases.",
-    solution:
-      "Collaborated on seven game projects with four selected as finalists, designed and created complete 2D game assets from scratch for nine projects, and gained experience in full game design lifecycle from ideation to post-launch maintenance.",
-    technologies: ["Unity Engine", "2D Art Creation", "Game Design", "Asset Design", "Team Collaboration"],
-    links: [
-      { label: "Game Portfolio", url: "#" },
-      { label: "Art Showcase", url: "#" },
-    ],
-  },
-  {
-    id: 6,
-    title: "Animal Trafficking Awareness Thesis",
+    title: "D'BALCON Cafe Website",
     category: "web-app",
     image: "/placeholder.svg?height=400&width=800",
     description:
-      "Published thesis highlighting animal trafficking issues in Indonesia, raising awareness through research and digital presentation.",
+      "A website for a cafe that allows users to view the menu, book a table, and contact the cafe.",
     problem:
-      "Animal trafficking in Indonesia lacks sufficient public awareness and research documentation, making it difficult to address the issue effectively and garner support for conservation efforts.",
+      "Sometimes, you just want to have a website for your cafe. But, you don't want to spend too much time on it.",
     solution:
-      "Conducted comprehensive research on animal trafficking issues in Indonesia, published findings in a thesis that raises awareness and provides valuable insights for conservation efforts and policy development.",
-    technologies: ["Research", "Documentation", "Digital Presentation", "Awareness Campaign"],
+      "Created a website for a cafe that allows users to view the menu, book a table, and contact the cafe. The website is designed to be simple and easy to use because all activities will be redirected into whatsapp.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Responsive Design"],
     links: [
-      { label: "Thesis Paper", url: "#" },
-      { label: "Research Summary", url: "#" },
+      // { label: "Game Portfolio", url: "#" },
+      // { label: "Art Showcase", url: "#" },
     ],
   },
+  // {
+  //   id: 6,
+  //   title: "Animal Trafficking Awareness Thesis",
+  //   category: "web-app",
+  //   image: "/placeholder.svg?height=400&width=800",
+  //   description:
+  //     "Published thesis highlighting animal trafficking issues in Indonesia, raising awareness through research and digital presentation.",
+  //   problem:
+  //     "Animal trafficking in Indonesia lacks sufficient public awareness and research documentation, making it difficult to address the issue effectively and garner support for conservation efforts.",
+  //   solution:
+  //     "Conducted comprehensive research on animal trafficking issues in Indonesia, published findings in a thesis that raises awareness and provides valuable insights for conservation efforts and policy development.",
+  //   technologies: ["Research", "Documentation", "Digital Presentation", "Awareness Campaign"],
+  //   links: [
+  //     { label: "Thesis Paper", url: "#" },
+  //     { label: "Research Summary", url: "#" },
+  //   ],
+  // },
 ]
